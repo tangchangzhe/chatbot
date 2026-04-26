@@ -4,8 +4,7 @@ DEPLOY_DIR="/www/wwwroot/lyra"
 LOG_FILE="/www/wwwroot/lyra/deploy.log"
 
 export HOME=/root
-export NVM_DIR="/www/server/nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+export PATH="/www/server/nodejs/v24.12.0/bin:$PATH"
 export PM2_HOME=/root/.pm2
 
 echo "========================================" >> "$LOG_FILE"
