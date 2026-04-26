@@ -14,7 +14,7 @@ pnpm install --frozen-lockfile >> "$LOG_FILE" 2>&1
 
 pnpm build >> "$LOG_FILE" 2>&1
 
-pm2 restart lyra-studio >> "$LOG_FILE" 2>&1
+pm2 restart lyra >> "$LOG_FILE" 2>&1
 
 echo "Deploy finished at $(date)" >> "$LOG_FILE"
 echo "========================================" >> "$LOG_FILE"
