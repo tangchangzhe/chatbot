@@ -6,7 +6,7 @@
 
 | 项目 | 状态 |
 |------|------|
-| GitHub 仓库 | `tangchangzhe/chatbot`（已 Fork） |
+| GitHub 仓库 | `tangchangzhe/lyra`（已 Fork 并改名） |
 | 服务器 | 腾讯云 2C4G，宝塔面板 11.6.0 |
 | 域名 | `lyra.zerupta.com`（站点已创建） |
 | Node.js + PM2 | 已通过宝塔 PM2 管理器安装 |
@@ -26,7 +26,7 @@ rm -rf *
 rm -rf .[!.]* 2>/dev/null
 
 # 克隆你的 Fork 仓库
-git clone https://github.com/tangchangzhe/chatbot.git .
+git clone https://github.com/tangchangzhe/lyra.git .
 ```
 
 > 注意末尾的 `.`，表示克隆到当前目录而非创建子目录。
@@ -143,7 +143,7 @@ echo "========================================" >> "$LOG_FILE"
 
 ### 5.3 GitHub 仓库添加 Webhook
 
-1. 打开 https://github.com/tangchangzhe/chatbot/settings/hooks
+1. 打开 https://github.com/tangchangzhe/lyra/settings/hooks
 2. 点击 **Add webhook**
 3. 填写：
 
