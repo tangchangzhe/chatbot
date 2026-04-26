@@ -2,6 +2,7 @@
 
 DEPLOY_DIR="/www/wwwroot/lyra"
 LOG_FILE="/www/wwwroot/lyra/deploy.log"
+export PM2_HOME=/root/.pm2
 
 echo "========================================" >> "$LOG_FILE"
 echo "Deploy started at $(date)" >> "$LOG_FILE"
